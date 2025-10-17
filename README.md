@@ -1,59 +1,75 @@
-# AngularProductsApp
+# Products Store - Angular App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.6.
+Este proyecto es una **tienda de productos** desarrollada con **Angular 20**, **Angular Material**, y **TypeScript**. Permite visualizar, crear y detallar productos, con un diseño responsivo y moderno.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🔹 Características
+
+- Listado de productos en **tarjetas** con imagen, título, precio, marca, rating y categoría.
+- Vista de detalle de producto con galería de imágenes, descripción, stock, categoría, descuento, rating y el botón de eliminar.
+- Formulario para crear nuevos productos con validación.
+- Navegación a través de un **navbar responsivo**.
+- Interfaz atractiva con animaciones y efectos hover.
+- Soporte completo para **pantallas pequeñas** (responsive design).
+
+---
+
+## 📁 Repositorio
+
+Repositorio público: [https://github.com/estebancastano/products-store](https://github.com/estebancastano/products-store)
+
+---
+
+## ⚙️ Requisitos
+
+- Node.js >= 20
+- Angular CLI >= 20
+- NPM o Yarn
+- Git
+
+---
+
+## 🚀 Instalación
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/estebancastano/products-store.git
+cd products-store
+
+```
+2. Instalar dependencias:
+
+```bash
+npm install
+# o
+yarn install
+```
+3. Iniciar la aplicación:
 
 ```bash
 ng serve
 ```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+Abrir en el navegador:
+```
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
+## 🖼️ Capturas / Demo
 
-```bash
-ng generate --help
-```
+https://products-store.vercel.app
 
-## Building
+---
 
-To build the project run:
+## ✨ Buenas prácticas aplicadas
+- Uso de Angular Material para componentes UI.
 
-```bash
-ng build
-```
+- Navegación mediante RouterLink y RouterOutlet.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- Flexbox y Grid para diseño responsivo.
 
-## Running unit tests
+- Animaciones y efectos hover en botones y tarjetas.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Separación de estilos por componente.
