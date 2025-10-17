@@ -59,7 +59,18 @@ http://localhost:4200
 ---
 ## 🖼️ Capturas / Demo
 
-https://products-store.vercel.app
+### Vista de todos los productos:
+  <img width="1887" height="899" alt="image" src="https://github.com/user-attachments/assets/8fd09fe4-2913-4cd0-a781-566bb9018a20" />
+  
+### Vista detallada de un producto:
+  <img width="1631" height="784" alt="image" src="https://github.com/user-attachments/assets/ebafe562-d3e7-41e1-ab9a-a6413483274b" />
+  <img width="1565" height="814" alt="image" src="https://github.com/user-attachments/assets/88840ddf-046f-49e9-9bb0-70b25a11885b" />
+  
+### Vista de agregar producto:
+  <img width="1894" height="908" alt="image" src="https://github.com/user-attachments/assets/dc0cac1c-99a0-427c-b095-06b02dc9426b" />
+
+
+- Deploy: [https://products-store-kappa.vercel.app](https://products-store-kappa.vercel.app/products)
 
 ---
 
@@ -71,5 +82,9 @@ https://products-store.vercel.app
 - Flexbox y Grid para diseño responsivo.
 
 - Animaciones y efectos hover en botones y tarjetas.
+
+- Utilicé switchMap, combineLatest, shareReplay para el manejo de los observables y llamar a la API.
+
+- También apliqué ChangeDetection OnPush para el manejo de recarga de solo los componentes que lo tuvieran y no toda la app.  
 
 - Separación de estilos por componente.
